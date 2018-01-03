@@ -22,7 +22,7 @@ Provided is a JSON file that contains a data set of location information for pro
 - Review what the possible Extension Methosd are, and use them to answer the questions below?
 - 
 #### Questions
-Each query builds off of the next. 
+Each query builds off of the previous. 
 1. Output all of the neighborhoods in this data list
 2. Filter out all the neighborhoods that do not have any names
 3. Remove the Duplicates
