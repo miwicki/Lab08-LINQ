@@ -1,0 +1,8 @@
+C:\Users\Matt\source\repos\Lab08-LINQ\manhatten\manhatten\bin\Debug\netcoreapp2.0\manhatten.deps.json
+C:\Users\Matt\source\repos\Lab08-LINQ\manhatten\manhatten\bin\Debug\netcoreapp2.0\manhatten.runtimeconfig.json
+C:\Users\Matt\source\repos\Lab08-LINQ\manhatten\manhatten\bin\Debug\netcoreapp2.0\manhatten.runtimeconfig.dev.json
+C:\Users\Matt\source\repos\Lab08-LINQ\manhatten\manhatten\bin\Debug\netcoreapp2.0\manhatten.dll
+C:\Users\Matt\source\repos\Lab08-LINQ\manhatten\manhatten\obj\Debug\netcoreapp2.0\manhatten.csprojResolveAssemblyReference.cache
+C:\Users\Matt\source\repos\Lab08-LINQ\manhatten\manhatten\obj\Debug\netcoreapp2.0\manhatten.csproj.CoreCompileInputs.cache
+C:\Users\Matt\source\repos\Lab08-LINQ\manhatten\manhatten\obj\Debug\netcoreapp2.0\manhatten.AssemblyInfoInputs.cache
+C:\Users\Matt\source\repos\Lab08-LINQ\manhatten\manhatten\obj\Debug\netcoreapp2.0\manhatten.AssemblyInfo.cs
