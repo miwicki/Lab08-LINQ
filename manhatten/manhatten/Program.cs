@@ -25,7 +25,21 @@ namespace manhatten
                 Console.Clear();
             }
 
+            //Deserializing Json in this file
+            var data = Hood.FromJson(jsonStuffs);
 
+            //Returning all data, unfiltered, in json string format
+            IEnumerable<Feature> rawdata = from x in data.Features
+                                           where x.Properties.Neighborhood != null
+                                           select x;
+            foreach (var x in rawdata)
+            {
+                Console.WriteLine(o.Properties.Neighborhood);
+            }
+
+            Console.WriteLine();
+            Console.ReadLine();
+            Console.Clear();
         }
 
 

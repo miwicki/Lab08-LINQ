@@ -6,7 +6,7 @@ namespace QuickType
 
     using Newtonsoft.Json;
 
-    public partial class GettingStarted
+    public partial class Hood
     {
         [JsonProperty("features")]
         public Feature[] Features { get; set; }
@@ -55,23 +55,20 @@ namespace QuickType
     {
         [JsonProperty("coordinates")]
         public double[] Coordinates { get; set; }
-
-        [JsonProperty("type")]
-        public string Type { get; set; }
     }
 
 
-    public partial class GettingStarted
+    public partial class Hood
     {
-        public static GettingStarted FromJson(string json)
+        public static Hood FromJson(string json)
         {
-            return JsonConvert.DeserializeObject<GettingStarted>(json, Converter.Settings);
+            return JsonConvert.DeserializeObject<Hood>(json, Converter.Settings);
         }
     }
 
     public static class Serialize
     {
-        public static string ToJson(this GettingStarted self)
+        public static string ToJson(this Hood self)
         {
             return JsonConvert.SerializeObject(self, Converter.Settings);
         }
