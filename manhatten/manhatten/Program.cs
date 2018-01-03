@@ -15,6 +15,7 @@ namespace manhatten
             string path = Path.Combine(Environment.CurrentDirectory, @"manhatten\", fileName);
             string jsonStuffs;
 
+
             //using streamreader to read json file
             using (StreamReader sr = File.OpenText(path))
             {
@@ -23,6 +24,8 @@ namespace manhatten
                 Console.ReadLine();
                 Console.Clear();
             }
+
+
         }
 
 
