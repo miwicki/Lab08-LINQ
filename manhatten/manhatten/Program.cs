@@ -40,6 +40,18 @@ namespace manhatten
             Console.WriteLine();
             Console.ReadLine();
             Console.Clear();
+
+
+            //Filtering out no-name neighborhoods
+            var noNameFilter = rawdata.Where(y => y.Properties.Neighborhood != "");
+            foreach (var x in noNameFilter)
+            {
+                    Console.WriteLine(x.Properties.Neighborhood);
+            }
+
+            Console.WriteLine();
+            Console.ReadLine();
+            Console.Clear();
         }
 
 

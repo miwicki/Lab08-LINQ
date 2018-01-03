@@ -1,4 +1,4 @@
-namespace QuickType
+namespace Hood
 {
     using System;
     using System.Net;
